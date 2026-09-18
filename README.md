@@ -3,6 +3,17 @@
 Research project for **Research Methodology (RM_2026-ii)**, Universidade São Tomás de
 Moçambique, Faculty of Computer Science. Author: Anayo Chibuike Anyafulu.
 
+## Headline results
+
+![Score distribution](results/charts/04_scores.png)
+
+Across the 66 sites reachable at scan time, the mean security header score was
+**47/100**, 68.2% of sites were missing at least two of the six recommended
+headers, and Mozambican sites averaged **38.2** against **52.7** for the
+global comparison set. 42 of the 68 Mozambican sites were unreachable
+entirely (DNS, TLS-certificate, and timeout failures — see
+`results/summary.md`), which is itself a reportable finding.
+
 This repository contains an open-source, reproducible pipeline that scans ~100 websites
 (≈60 Mozambican, 40 international) across four categories (government, financial,
 educational, commercial) and reports how well they implement the six recommended HTTP
