@@ -1,0 +1,5 @@
+# virtualenv and caches — not part of the research artifact
+.venv/
+__pycache__/
+*.pyc
+results/Test_II_Problem_Analysis_and_Prototype.pdf

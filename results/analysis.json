@@ -1,0 +1,1367 @@
+{
+  "total_scanned": 108,
+  "reachable": 66,
+  "unreachable": 42,
+  "failures_by_type": {
+    "other": {
+      "count": 1,
+      "sites": [
+        "Portal do Governo de Mocambique"
+      ],
+      "by_region": {
+        "mz": 1,
+        "global": 0
+      }
+    },
+    "timeout": {
+      "count": 5,
+      "sites": [
+        "Ministerio das Financas",
+        "Ministerio da Economia e Financas",
+        "Fidelidade Mocambique",
+        "Old Mutual Mocambique",
+        "Tmcel"
+      ],
+      "by_region": {
+        "mz": 5,
+        "global": 0
+      }
+    },
+    "ssl": {
+      "count": 9,
+      "sites": [
+        "Ministerio da Saude (MISAU)",
+        "Ministerio da Justica",
+        "Ministerio do Trabalho",
+        "Autoridade Tributaria de Mocambique",
+        "INE Mocambique",
+        "CNE Mocambique",
+        "Banco Internacional de Mocambique",
+        "EMOSE Seguros",
+        "ISCED"
+      ],
+      "by_region": {
+        "mz": 9,
+        "global": 0
+      }
+    },
+    "dns": {
+      "count": 27,
+      "sites": [
+        "Ministerio da Educacao (MINEDH)",
+        "Ministerio do Interior",
+        "Ministerio das Obras Publicas",
+        "UITA Mocambique",
+        "Banco Unico",
+        "Societe Generale Mocambique",
+        "Banco Mais",
+        "Letshego Mocambique",
+        "Universidade Eduardo Mondlane",
+        "Universidade Tecnica de Mocambique",
+        "UPC - Universidade Politecnica",
+        "UEM - Faculdade de Engenharia",
+        "Instituto Superior de Ciencias de Saude",
+        "Instituto Superior de Tecnologias de Mocambique",
+        "Guru MZ",
+        "Gil Soap",
+        "TDM Telecomunicacoes",
+        "TV Miramar",
+        "SAPO Mocambique",
+        "Cerveja 2M",
+        "CDM - Cervejas de Mocambique",
+        "Anadarko MZ",
+        "Mozal",
+        "Mcel",
+        "Solaris Tech MZ",
+        "Uab Bank",
+        "Escola Portuguesa de Mocambique"
+      ],
+      "by_region": {
+        "mz": 27,
+        "global": 0
+      }
+    }
+  },
+  "avg_score": 47.0,
+  "header_stats": {
+    "Content-Security-Policy": {
+      "ok": 19,
+      "weak": 18,
+      "missing": 29,
+      "ok_pct": 28.8,
+      "present_pct": 56.1
+    },
+    "Strict-Transport-Security": {
+      "ok": 38,
+      "weak": 6,
+      "missing": 22,
+      "ok_pct": 57.6,
+      "present_pct": 66.7
+    },
+    "X-Frame-Options": {
+      "ok": 40,
+      "weak": 1,
+      "missing": 25,
+      "ok_pct": 60.6,
+      "present_pct": 62.1
+    },
+    "X-Content-Type-Options": {
+      "ok": 35,
+      "weak": 5,
+      "missing": 26,
+      "ok_pct": 53.0,
+      "present_pct": 60.6
+    },
+    "Referrer-Policy": {
+      "ok": 23,
+      "weak": 2,
+      "missing": 41,
+      "ok_pct": 34.8,
+      "present_pct": 37.9
+    },
+    "Permissions-Policy": {
+      "ok": 15,
+      "weak": 0,
+      "missing": 51,
+      "ok_pct": 22.7,
+      "present_pct": 22.7
+    }
+  },
+  "most_missing": "Permissions-Policy",
+  "lowest_presence": "Permissions-Policy",
+  "most_weak": "Permissions-Policy",
+  "h1": {
+    "statement": "Majority of sites missing >= 2 of six headers",
+    "pct_missing_two_plus": 68.2,
+    "n_missing_two_plus": 45,
+    "supported": true
+  },
+  "h2": {
+    "statement": "Finance+government score higher than education+commercial",
+    "sector_avg": 48.3,
+    "other_avg": 46.3,
+    "difference": 2.0,
+    "supported": true
+  },
+  "h3": {
+    "statement": "CSP is the most commonly missing/weak header",
+    "header": "Permissions-Policy",
+    "supported": false
+  },
+  "group_stats": {
+    "region": {
+      "global": {
+        "n": 40,
+        "avg_score": 52.7,
+        "per_header": {
+          "Content-Security-Policy": {
+            "ok_pct": 22.5,
+            "present_pct": 60.0
+          },
+          "Strict-Transport-Security": {
+            "ok_pct": 70.0,
+            "present_pct": 82.5
+          },
+          "X-Frame-Options": {
+            "ok_pct": 72.5,
+            "present_pct": 72.5
+          },
+          "X-Content-Type-Options": {
+            "ok_pct": 60.0,
+            "present_pct": 67.5
+          },
+          "Referrer-Policy": {
+            "ok_pct": 37.5,
+            "present_pct": 42.5
+          },
+          "Permissions-Policy": {
+            "ok_pct": 22.5,
+            "present_pct": 22.5
+          }
+        },
+        "missing_two_plus_pct": 62.5
+      },
+      "mz": {
+        "n": 26,
+        "avg_score": 38.2,
+        "per_header": {
+          "Content-Security-Policy": {
+            "ok_pct": 38.5,
+            "present_pct": 50.0
+          },
+          "Strict-Transport-Security": {
+            "ok_pct": 38.5,
+            "present_pct": 42.3
+          },
+          "X-Frame-Options": {
+            "ok_pct": 42.3,
+            "present_pct": 46.2
+          },
+          "X-Content-Type-Options": {
+            "ok_pct": 42.3,
+            "present_pct": 50.0
+          },
+          "Referrer-Policy": {
+            "ok_pct": 30.8,
+            "present_pct": 30.8
+          },
+          "Permissions-Policy": {
+            "ok_pct": 23.1,
+            "present_pct": 23.1
+          }
+        },
+        "missing_two_plus_pct": 76.9
+      }
+    },
+    "category": {
+      "commercial": {
+        "n": 30,
+        "avg_score": 50.3,
+        "per_header": {
+          "Content-Security-Policy": {
+            "ok_pct": 20.0,
+            "present_pct": 56.7
+          },
+          "Strict-Transport-Security": {
+            "ok_pct": 66.7,
+            "present_pct": 76.7
+          },
+          "X-Frame-Options": {
+            "ok_pct": 63.3,
+            "present_pct": 66.7
+          },
+          "X-Content-Type-Options": {
+            "ok_pct": 66.7,
+            "present_pct": 70.0
+          },
+          "Referrer-Policy": {
+            "ok_pct": 30.0,
+            "present_pct": 33.3
+          },
+          "Permissions-Policy": {
+            "ok_pct": 26.7,
+            "present_pct": 26.7
+          }
+        },
+        "missing_two_plus_pct": 66.7
+      },
+      "education": {
+        "n": 12,
+        "avg_score": 36.2,
+        "per_header": {
+          "Content-Security-Policy": {
+            "ok_pct": 25.0,
+            "present_pct": 50.0
+          },
+          "Strict-Transport-Security": {
+            "ok_pct": 16.7,
+            "present_pct": 33.3
+          },
+          "X-Frame-Options": {
+            "ok_pct": 58.3,
+            "present_pct": 58.3
+          },
+          "X-Content-Type-Options": {
+            "ok_pct": 25.0,
+            "present_pct": 41.7
+          },
+          "Referrer-Policy": {
+            "ok_pct": 33.3,
+            "present_pct": 41.7
+          },
+          "Permissions-Policy": {
+            "ok_pct": 25.0,
+            "present_pct": 25.0
+          }
+        },
+        "missing_two_plus_pct": 75.0
+      },
+      "finance": {
+        "n": 13,
+        "avg_score": 50.7,
+        "per_header": {
+          "Content-Security-Policy": {
+            "ok_pct": 53.8,
+            "present_pct": 84.6
+          },
+          "Strict-Transport-Security": {
+            "ok_pct": 69.2,
+            "present_pct": 76.9
+          },
+          "X-Frame-Options": {
+            "ok_pct": 53.8,
+            "present_pct": 53.8
+          },
+          "X-Content-Type-Options": {
+            "ok_pct": 38.5,
+            "present_pct": 53.8
+          },
+          "Referrer-Policy": {
+            "ok_pct": 46.2,
+            "present_pct": 46.2
+          },
+          "Permissions-Policy": {
+            "ok_pct": 15.4,
+            "present_pct": 15.4
+          }
+        },
+        "missing_two_plus_pct": 61.5
+      },
+      "government": {
+        "n": 11,
+        "avg_score": 45.5,
+        "per_header": {
+          "Content-Security-Policy": {
+            "ok_pct": 27.3,
+            "present_pct": 27.3
+          },
+          "Strict-Transport-Security": {
+            "ok_pct": 63.6,
+            "present_pct": 63.6
+          },
+          "X-Frame-Options": {
+            "ok_pct": 63.6,
+            "present_pct": 63.6
+          },
+          "X-Content-Type-Options": {
+            "ok_pct": 63.6,
+            "present_pct": 63.6
+          },
+          "Referrer-Policy": {
+            "ok_pct": 36.4,
+            "present_pct": 36.4
+          },
+          "Permissions-Policy": {
+            "ok_pct": 18.2,
+            "present_pct": 18.2
+          }
+        },
+        "missing_two_plus_pct": 72.7
+      }
+    }
+  },
+  "chi_square_tests": {
+    "Content-Security-Policy": {
+      "chi2": 5.208,
+      "p": 0.1553,
+      "dof": 3
+    },
+    "Strict-Transport-Security": {
+      "chi2": 10.125,
+      "p": 0.0175,
+      "dof": 3
+    },
+    "X-Frame-Options": {
+      "chi2": 0.411,
+      "p": 0.9343,
+      "dof": 3
+    },
+    "X-Content-Type-Options": {
+      "chi2": 7.629,
+      "p": 0.0534,
+      "dof": 3
+    },
+    "Referrer-Policy": {
+      "chi2": 1.066,
+      "p": 0.7881,
+      "dof": 3
+    },
+    "Permissions-Policy": {
+      "chi2": 0.829,
+      "p": 0.8435,
+      "dof": 3
+    }
+  },
+  "site_scores": [
+    {
+      "name": "Ministerio dos Negocios Estrangeiros",
+      "url": "https://www.minec.gov.mz",
+      "category": "government",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Ministerio da Agricultura",
+      "url": "https://www.agricultura.gov.mz",
+      "category": "government",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Ministerio dos Recursos Minerais",
+      "url": "https://www.mireme.gov.mz",
+      "category": "government",
+      "region": "mz",
+      "score": 100,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "Banco de Mocambique",
+      "url": "https://www.bancomoc.mz",
+      "category": "government",
+      "region": "mz",
+      "score": 33,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "MZweb Portal",
+      "url": "https://www.portaldogoverno.gov.mz",
+      "category": "government",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Banco Comercial e de Investimentos",
+      "url": "https://www.bci.co.mz",
+      "category": "finance",
+      "region": "mz",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Standard Bank Mocambique",
+      "url": "https://www.standardbank.co.mz",
+      "category": "finance",
+      "region": "mz",
+      "score": 75,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "Absa Bank Mocambique",
+      "url": "https://www.absa.co.mz",
+      "category": "finance",
+      "region": "mz",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "weak",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Hollard Mocambique",
+      "url": "https://www.hollard.co.mz",
+      "category": "finance",
+      "region": "mz",
+      "score": 33,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Banco Nacional de Investimento",
+      "url": "https://www.bni.co.mz",
+      "category": "finance",
+      "region": "mz",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Instituto Nacional de Seguranca Social",
+      "url": "https://www.inss.gov.mz",
+      "category": "finance",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Universidade Catolica de Mocambique",
+      "url": "https://www.ucm.ac.mz",
+      "category": "education",
+      "region": "mz",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Universidade Lurio",
+      "url": "https://www.unilurio.ac.mz",
+      "category": "education",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Universidade Pedagogica",
+      "url": "https://www.up.ac.mz",
+      "category": "education",
+      "region": "mz",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "weak",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "ISCAM",
+      "url": "https://www.iscam.ac.mz",
+      "category": "education",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Universidade Sao Tomas de Mocambique",
+      "url": "https://www.ucm.ac.mz/ustm",
+      "category": "education",
+      "region": "mz",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Studocu MZ",
+      "url": "https://www.studocu.com/mz",
+      "category": "education",
+      "region": "mz",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "STV de Mocambique",
+      "url": "https://www.stv.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Sasol Mocambique",
+      "url": "https://www.sasol.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 33,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "weak",
+        "X-Content-Type-Options": "weak",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Petromoc",
+      "url": "https://www.petromoc.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 33,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "ENH - Energeticidade Nacional",
+      "url": "https://www.enh.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "CFM - Portos e Caminhos de Ferro",
+      "url": "https://www.cfm.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 83,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "LAM - Linhas Aereas de Mocambique",
+      "url": "https://www.lam.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Airlink MZ",
+      "url": "https://www.flyairlink.com",
+      "category": "commercial",
+      "region": "mz",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Movitel",
+      "url": "https://www.movitel.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 33,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Vodacom Mocambique",
+      "url": "https://www.vodacom.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 100,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "Google",
+      "url": "https://www.google.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 75,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "weak",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 75,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "X (Twitter)",
+      "url": "https://x.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 75,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://www.whatsapp.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 75,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://www.wikipedia.org",
+      "category": "commercial",
+      "region": "global",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Amazon",
+      "url": "https://www.amazon.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 50,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Apple",
+      "url": "https://www.apple.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 75,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 25,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 58,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "weak",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "eBay",
+      "url": "https://www.ebay.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "PayPal",
+      "url": "https://www.paypal.com",
+      "category": "finance",
+      "region": "global",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "Stripe",
+      "url": "https://stripe.com",
+      "category": "finance",
+      "region": "global",
+      "score": 83,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Visa",
+      "url": "https://www.visa.com",
+      "category": "finance",
+      "region": "global",
+      "score": 75,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "weak",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Mastercard",
+      "url": "https://www.mastercard.com",
+      "category": "finance",
+      "region": "global",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "American Express",
+      "url": "https://www.americanexpress.com",
+      "category": "finance",
+      "region": "global",
+      "score": 75,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "weak",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "FNB South Africa",
+      "url": "https://www.fnb.co.za",
+      "category": "finance",
+      "region": "global",
+      "score": 25,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Standard Bank Group",
+      "url": "https://www.standardbank.com",
+      "category": "finance",
+      "region": "global",
+      "score": 58,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "World Bank",
+      "url": "https://www.worldbank.org",
+      "category": "government",
+      "region": "global",
+      "score": 50,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "IMF",
+      "url": "https://www.imf.org",
+      "category": "government",
+      "region": "global",
+      "score": 17,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "UN",
+      "url": "https://www.un.org",
+      "category": "government",
+      "region": "global",
+      "score": 83,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "US Treasury",
+      "url": "https://home.treasury.gov",
+      "category": "government",
+      "region": "global",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Gov UK",
+      "url": "https://www.gov.uk",
+      "category": "government",
+      "region": "global",
+      "score": 100,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "EU Commission",
+      "url": "https://ec.europa.eu",
+      "category": "government",
+      "region": "global",
+      "score": 50,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "MIT",
+      "url": "https://www.mit.edu",
+      "category": "education",
+      "region": "global",
+      "score": 42,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "weak",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Harvard University",
+      "url": "https://www.harvard.edu",
+      "category": "education",
+      "region": "global",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Stanford University",
+      "url": "https://www.stanford.edu",
+      "category": "education",
+      "region": "global",
+      "score": 83,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "weak",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "University of Oxford",
+      "url": "https://www.ox.ac.uk",
+      "category": "education",
+      "region": "global",
+      "score": 83,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "weak",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "University of Cape Town",
+      "url": "https://www.uct.ac.za",
+      "category": "education",
+      "region": "global",
+      "score": 25,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "weak",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "University of Pretoria",
+      "url": "https://www.up.ac.za",
+      "category": "education",
+      "region": "global",
+      "score": 33,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Mzansi Tech Hub",
+      "url": "https://www.mzansitechhub.co.za",
+      "category": "commercial",
+      "region": "global",
+      "score": 58,
+      "verdicts": {
+        "Content-Security-Policy": "ok",
+        "Strict-Transport-Security": "weak",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Jumia",
+      "url": "https://www.jumia.co.mz",
+      "category": "commercial",
+      "region": "global",
+      "score": 50,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Jumia Nigeria",
+      "url": "https://www.jumia.com.ng",
+      "category": "commercial",
+      "region": "global",
+      "score": 67,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Takealot",
+      "url": "https://www.takealot.com",
+      "category": "commercial",
+      "region": "global",
+      "score": 83,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "weak",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "ok"
+      }
+    },
+    {
+      "name": "Mercado Livre",
+      "url": "https://www.mercadolivre.com.br",
+      "category": "commercial",
+      "region": "global",
+      "score": 58,
+      "verdicts": {
+        "Content-Security-Policy": "weak",
+        "Strict-Transport-Security": "ok",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    }
+  ]
+}

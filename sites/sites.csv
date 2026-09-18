@@ -1,0 +1,109 @@
+name,url,category,region
+Portal do Governo de Mocambique,https://www.govnet.gov.mz,government,mz
+Ministerio das Financas,https://www.mf.gov.mz,government,mz
+Ministerio da Saude (MISAU),https://www.misau.gov.mz,government,mz
+Ministerio da Educacao (MINEDH),https://www.minedh.gov.mz,government,mz
+Ministerio da Economia e Financas,https://www.mef.gov.mz,government,mz
+Ministerio dos Negocios Estrangeiros,https://www.minec.gov.mz,government,mz
+Ministerio do Interior,https://www.interior.gov.mz,government,mz
+Ministerio da Justica,https://www.mj.gov.mz,government,mz
+Ministerio do Trabalho,https://www.maefp.gov.mz,government,mz
+Ministerio da Agricultura,https://www.agricultura.gov.mz,government,mz
+Ministerio dos Recursos Minerais,https://www.mireme.gov.mz,government,mz
+Ministerio das Obras Publicas,https://www.moprh.gov.mz,government,mz
+Autoridade Tributaria de Mocambique,https://www.at.gov.mz,government,mz
+INE Mocambique,https://www.ine.gov.mz,government,mz
+Banco de Mocambique,https://www.bancomoc.mz,government,mz
+UITA Mocambique,https://www.uita.gov.mz,government,mz
+CNE Mocambique,https://www.cne.org.mz,government,mz
+MZweb Portal,https://www.portaldogoverno.gov.mz,government,mz
+Banco Comercial e de Investimentos,https://www.bci.co.mz,finance,mz
+Banco Internacional de Mocambique,https://www.bim.co.mz,finance,mz
+Standard Bank Mocambique,https://www.standardbank.co.mz,finance,mz
+Absa Bank Mocambique,https://www.absa.co.mz,finance,mz
+Banco Unico,https://www.bancounico.co.mz,finance,mz
+Societe Generale Mocambique,https://societegenerale.co.mz,finance,mz
+Banco Mais,https://www.bankmais.co.mz,finance,mz
+Letshego Mocambique,https://www.letshego.co.mz,finance,mz
+Hollard Mocambique,https://www.hollard.co.mz,finance,mz
+Fidelidade Mocambique,https://www.fidelidade.co.mz,finance,mz
+Old Mutual Mocambique,https://www.oldmutual.co.mz,finance,mz
+EMOSE Seguros,https://www.emose.co.mz,finance,mz
+Banco Nacional de Investimento,https://www.bni.co.mz,finance,mz
+Instituto Nacional de Seguranca Social,https://www.inss.gov.mz,finance,mz
+Universidade Eduardo Mondlane,https://www.uem.ac.mz,education,mz
+Universidade Catolica de Mocambique,https://www.ucm.ac.mz,education,mz
+Universidade Lurio,https://www.unilurio.ac.mz,education,mz
+Universidade Pedagogica,https://www.up.ac.mz,education,mz
+Universidade Tecnica de Mocambique,https://www.udsm.edu.mz,education,mz
+UPC - Universidade Politecnica,https://www.upc.ac.mz,education,mz
+ISCAM,https://www.iscam.ac.mz,education,mz
+ISCED,https://www.isced.ac.mz,education,mz
+UEM - Faculdade de Engenharia,https://www.feng.uem.mz,education,mz
+Instituto Superior de Ciencias de Saude,https://www.iscas.ac.mz,education,mz
+Instituto Superior de Tecnologias de Mocambique,https://www.istmo.edu.mz,education,mz
+Universidade Sao Tomas de Mocambique,https://www.ucm.ac.mz/ustm,education,mz
+Studocu MZ,https://www.studocu.com/mz,education,mz
+Guru MZ,https://www.guru.co.mz,education,mz
+Gil Soap,https://www.gilsoap.co.mz,commercial,mz
+TDM Telecomunicacoes,https://www.tdm.co.mz,commercial,mz
+TV Miramar,https://www.tvmiramar.co.mz,commercial,mz
+STV de Mocambique,https://www.stv.co.mz,commercial,mz
+SAPO Mocambique,https://sapo.co.mz,commercial,mz
+Cerveja 2M,https://www.2m.co.mz,commercial,mz
+CDM - Cervejas de Mocambique,https://www.cdm.co.mz,commercial,mz
+Sasol Mocambique,https://www.sasol.co.mz,commercial,mz
+Anadarko MZ,https://www.anadarko.com,commercial,mz
+Mozal,https://www.mozal.co.mz,commercial,mz
+Petromoc,https://www.petromoc.co.mz,commercial,mz
+ENH - Energeticidade Nacional,https://www.enh.co.mz,commercial,mz
+CFM - Portos e Caminhos de Ferro,https://www.cfm.co.mz,commercial,mz
+LAM - Linhas Aereas de Mocambique,https://www.lam.co.mz,commercial,mz
+Airlink MZ,https://www.flyairlink.com,commercial,mz
+Mcel,https://www.mcel.co.mz,commercial,mz
+Movitel,https://www.movitel.co.mz,commercial,mz
+Vodacom Mocambique,https://www.vodacom.co.mz,commercial,mz
+Tmcel,https://www.tmcel.co.mz,commercial,mz
+Solaris Tech MZ,https://www.solaris.co.mz,commercial,mz
+Uab Bank,https://www.uabbank.co.mz,finance,mz
+Escola Portuguesa de Mocambique,https://www.epm.ac.mz,education,mz
+Google,https://www.google.com,commercial,global
+YouTube,https://www.youtube.com,commercial,global
+Facebook,https://www.facebook.com,commercial,global
+Instagram,https://www.instagram.com,commercial,global
+X (Twitter),https://x.com,commercial,global
+WhatsApp,https://www.whatsapp.com,commercial,global
+Wikipedia,https://www.wikipedia.org,commercial,global
+Amazon,https://www.amazon.com,commercial,global
+Netflix,https://www.netflix.com,commercial,global
+Microsoft,https://www.microsoft.com,commercial,global
+Apple,https://www.apple.com,commercial,global
+LinkedIn,https://www.linkedin.com,commercial,global
+TikTok,https://www.tiktok.com,commercial,global
+Reddit,https://www.reddit.com,commercial,global
+Pinterest,https://www.pinterest.com,commercial,global
+eBay,https://www.ebay.com,commercial,global
+PayPal,https://www.paypal.com,finance,global
+Stripe,https://stripe.com,finance,global
+Visa,https://www.visa.com,finance,global
+Mastercard,https://www.mastercard.com,finance,global
+American Express,https://www.americanexpress.com,finance,global
+FNB South Africa,https://www.fnb.co.za,finance,global
+Standard Bank Group,https://www.standardbank.com,finance,global
+World Bank,https://www.worldbank.org,government,global
+IMF,https://www.imf.org,government,global
+UN,https://www.un.org,government,global
+US Treasury,https://home.treasury.gov,government,global
+Gov UK,https://www.gov.uk,government,global
+EU Commission,https://ec.europa.eu,government,global
+MIT,https://www.mit.edu,education,global
+Harvard University,https://www.harvard.edu,education,global
+Stanford University,https://www.stanford.edu,education,global
+University of Oxford,https://www.ox.ac.uk,education,global
+University of Cape Town,https://www.uct.ac.za,education,global
+University of Pretoria,https://www.up.ac.za,education,global
+Mzansi Tech Hub,https://www.mzansitechhub.co.za,commercial,global
+Jumia,https://www.jumia.co.mz,commercial,global
+Jumia Nigeria,https://www.jumia.com.ng,commercial,global
+Takealot,https://www.takealot.com,commercial,global
+Mercado Livre,https://www.mercadolivre.com.br,commercial,global
