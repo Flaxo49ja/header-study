@@ -1,23 +1,13 @@
 {
   "total_scanned": 108,
-  "reachable": 66,
-  "unreachable": 42,
+  "reachable": 69,
+  "unreachable": 39,
   "failures_by_type": {
-    "other": {
-      "count": 1,
-      "sites": [
-        "Portal do Governo de Mocambique"
-      ],
-      "by_region": {
-        "mz": 1,
-        "global": 0
-      }
-    },
     "timeout": {
       "count": 5,
       "sites": [
-        "Ministerio das Financas",
-        "Ministerio da Economia e Financas",
+        "Portal do Governo de Mocambique",
+        "INE Mocambique",
         "Fidelidade Mocambique",
         "Old Mutual Mocambique",
         "Tmcel"
@@ -28,25 +18,24 @@
       }
     },
     "ssl": {
-      "count": 9,
+      "count": 8,
       "sites": [
         "Ministerio da Saude (MISAU)",
         "Ministerio da Justica",
         "Ministerio do Trabalho",
         "Autoridade Tributaria de Mocambique",
-        "INE Mocambique",
         "CNE Mocambique",
         "Banco Internacional de Mocambique",
         "EMOSE Seguros",
         "ISCED"
       ],
       "by_region": {
-        "mz": 9,
+        "mz": 8,
         "global": 0
       }
     },
     "dns": {
-      "count": 27,
+      "count": 26,
       "sites": [
         "Ministerio da Educacao (MINEDH)",
         "Ministerio do Interior",
@@ -68,7 +57,6 @@
         "TV Miramar",
         "SAPO Mocambique",
         "Cerveja 2M",
-        "CDM - Cervejas de Mocambique",
         "Anadarko MZ",
         "Mozal",
         "Mcel",
@@ -77,54 +65,54 @@
         "Escola Portuguesa de Mocambique"
       ],
       "by_region": {
-        "mz": 27,
+        "mz": 26,
         "global": 0
       }
     }
   },
-  "avg_score": 47.0,
+  "avg_score": 45.9,
   "header_stats": {
     "Content-Security-Policy": {
-      "ok": 19,
-      "weak": 18,
-      "missing": 29,
-      "ok_pct": 28.8,
-      "present_pct": 56.1
+      "ok": 18,
+      "weak": 19,
+      "missing": 32,
+      "ok_pct": 26.1,
+      "present_pct": 53.6
     },
     "Strict-Transport-Security": {
-      "ok": 38,
+      "ok": 40,
       "weak": 6,
-      "missing": 22,
-      "ok_pct": 57.6,
+      "missing": 23,
+      "ok_pct": 58.0,
       "present_pct": 66.7
     },
     "X-Frame-Options": {
-      "ok": 40,
+      "ok": 41,
       "weak": 1,
-      "missing": 25,
-      "ok_pct": 60.6,
-      "present_pct": 62.1
+      "missing": 27,
+      "ok_pct": 59.4,
+      "present_pct": 60.9
     },
     "X-Content-Type-Options": {
-      "ok": 35,
-      "weak": 5,
-      "missing": 26,
-      "ok_pct": 53.0,
-      "present_pct": 60.6
+      "ok": 37,
+      "weak": 4,
+      "missing": 28,
+      "ok_pct": 53.6,
+      "present_pct": 59.4
     },
     "Referrer-Policy": {
       "ok": 23,
       "weak": 2,
-      "missing": 41,
-      "ok_pct": 34.8,
-      "present_pct": 37.9
+      "missing": 44,
+      "ok_pct": 33.3,
+      "present_pct": 36.2
     },
     "Permissions-Policy": {
       "ok": 15,
       "weak": 0,
-      "missing": 51,
-      "ok_pct": 22.7,
-      "present_pct": 22.7
+      "missing": 54,
+      "ok_pct": 21.7,
+      "present_pct": 21.7
     }
   },
   "most_missing": "Permissions-Policy",
@@ -132,16 +120,16 @@
   "most_weak": "Permissions-Policy",
   "h1": {
     "statement": "Majority of sites missing >= 2 of six headers",
-    "pct_missing_two_plus": 68.2,
-    "n_missing_two_plus": 45,
+    "pct_missing_two_plus": 66.7,
+    "n_missing_two_plus": 46,
     "supported": true
   },
   "h2": {
     "statement": "Finance+government score higher than education+commercial",
-    "sector_avg": 48.3,
-    "other_avg": 46.3,
-    "difference": 2.0,
-    "supported": true
+    "sector_avg": 45.8,
+    "other_avg": 46.0,
+    "difference": -0.2,
+    "supported": false
   },
   "h3": {
     "statement": "CSP is the most commonly missing/weak header",
@@ -152,102 +140,102 @@
     "region": {
       "global": {
         "n": 40,
-        "avg_score": 52.7,
+        "avg_score": 56.1,
         "per_header": {
           "Content-Security-Policy": {
-            "ok_pct": 22.5,
+            "ok_pct": 20.0,
             "present_pct": 60.0
           },
           "Strict-Transport-Security": {
-            "ok_pct": 70.0,
-            "present_pct": 82.5
+            "ok_pct": 75.0,
+            "present_pct": 87.5
           },
           "X-Frame-Options": {
-            "ok_pct": 72.5,
+            "ok_pct": 77.5,
+            "present_pct": 77.5
+          },
+          "X-Content-Type-Options": {
+            "ok_pct": 67.5,
             "present_pct": 72.5
           },
-          "X-Content-Type-Options": {
-            "ok_pct": 60.0,
-            "present_pct": 67.5
-          },
           "Referrer-Policy": {
-            "ok_pct": 37.5,
-            "present_pct": 42.5
+            "ok_pct": 40.0,
+            "present_pct": 45.0
           },
           "Permissions-Policy": {
-            "ok_pct": 22.5,
-            "present_pct": 22.5
+            "ok_pct": 25.0,
+            "present_pct": 25.0
           }
         },
-        "missing_two_plus_pct": 62.5
+        "missing_two_plus_pct": 57.5
       },
       "mz": {
-        "n": 26,
-        "avg_score": 38.2,
+        "n": 29,
+        "avg_score": 31.9,
         "per_header": {
           "Content-Security-Policy": {
-            "ok_pct": 38.5,
-            "present_pct": 50.0
+            "ok_pct": 34.5,
+            "present_pct": 44.8
           },
           "Strict-Transport-Security": {
-            "ok_pct": 38.5,
-            "present_pct": 42.3
+            "ok_pct": 34.5,
+            "present_pct": 37.9
           },
           "X-Frame-Options": {
-            "ok_pct": 42.3,
-            "present_pct": 46.2
+            "ok_pct": 34.5,
+            "present_pct": 37.9
           },
           "X-Content-Type-Options": {
-            "ok_pct": 42.3,
-            "present_pct": 50.0
+            "ok_pct": 34.5,
+            "present_pct": 41.4
           },
           "Referrer-Policy": {
-            "ok_pct": 30.8,
-            "present_pct": 30.8
+            "ok_pct": 24.1,
+            "present_pct": 24.1
           },
           "Permissions-Policy": {
-            "ok_pct": 23.1,
-            "present_pct": 23.1
+            "ok_pct": 17.2,
+            "present_pct": 17.2
           }
         },
-        "missing_two_plus_pct": 76.9
+        "missing_two_plus_pct": 79.3
       }
     },
     "category": {
       "commercial": {
-        "n": 30,
-        "avg_score": 50.3,
+        "n": 31,
+        "avg_score": 51.9,
         "per_header": {
           "Content-Security-Policy": {
-            "ok_pct": 20.0,
-            "present_pct": 56.7
+            "ok_pct": 19.4,
+            "present_pct": 54.8
           },
           "Strict-Transport-Security": {
-            "ok_pct": 66.7,
-            "present_pct": 76.7
+            "ok_pct": 71.0,
+            "present_pct": 80.6
           },
           "X-Frame-Options": {
-            "ok_pct": 63.3,
-            "present_pct": 66.7
+            "ok_pct": 64.5,
+            "present_pct": 67.7
           },
           "X-Content-Type-Options": {
-            "ok_pct": 66.7,
-            "present_pct": 70.0
+            "ok_pct": 67.7,
+            "present_pct": 71.0
           },
           "Referrer-Policy": {
-            "ok_pct": 30.0,
-            "present_pct": 33.3
+            "ok_pct": 32.3,
+            "present_pct": 35.5
           },
           "Permissions-Policy": {
-            "ok_pct": 26.7,
-            "present_pct": 26.7
+            "ok_pct": 29.0,
+            "present_pct": 29.0
           }
         },
-        "missing_two_plus_pct": 66.7
+        "missing_two_plus_pct": 61.3
       },
       "education": {
         "n": 12,
-        "avg_score": 36.2,
+        "avg_score": 30.6,
         "per_header": {
           "Content-Security-Policy": {
             "ok_pct": 25.0,
@@ -258,30 +246,30 @@
             "present_pct": 33.3
           },
           "X-Frame-Options": {
-            "ok_pct": 58.3,
-            "present_pct": 58.3
+            "ok_pct": 50.0,
+            "present_pct": 50.0
           },
           "X-Content-Type-Options": {
-            "ok_pct": 25.0,
-            "present_pct": 41.7
+            "ok_pct": 16.7,
+            "present_pct": 33.3
           },
           "Referrer-Policy": {
-            "ok_pct": 33.3,
-            "present_pct": 41.7
+            "ok_pct": 25.0,
+            "present_pct": 33.3
           },
           "Permissions-Policy": {
-            "ok_pct": 25.0,
-            "present_pct": 25.0
+            "ok_pct": 16.7,
+            "present_pct": 16.7
           }
         },
         "missing_two_plus_pct": 75.0
       },
       "finance": {
         "n": 13,
-        "avg_score": 50.7,
+        "avg_score": 53.2,
         "per_header": {
           "Content-Security-Policy": {
-            "ok_pct": 53.8,
+            "ok_pct": 46.2,
             "present_pct": 84.6
           },
           "Strict-Transport-Security": {
@@ -289,12 +277,12 @@
             "present_pct": 76.9
           },
           "X-Frame-Options": {
-            "ok_pct": 53.8,
-            "present_pct": 53.8
+            "ok_pct": 61.5,
+            "present_pct": 61.5
           },
           "X-Content-Type-Options": {
-            "ok_pct": 38.5,
-            "present_pct": 53.8
+            "ok_pct": 53.8,
+            "present_pct": 61.5
           },
           "Referrer-Policy": {
             "ok_pct": 46.2,
@@ -308,71 +296,101 @@
         "missing_two_plus_pct": 61.5
       },
       "government": {
-        "n": 11,
-        "avg_score": 45.5,
+        "n": 13,
+        "avg_score": 38.5,
         "per_header": {
           "Content-Security-Policy": {
-            "ok_pct": 27.3,
-            "present_pct": 27.3
+            "ok_pct": 23.1,
+            "present_pct": 23.1
           },
           "Strict-Transport-Security": {
-            "ok_pct": 63.6,
-            "present_pct": 63.6
+            "ok_pct": 53.8,
+            "present_pct": 53.8
           },
           "X-Frame-Options": {
-            "ok_pct": 63.6,
-            "present_pct": 63.6
+            "ok_pct": 53.8,
+            "present_pct": 53.8
           },
           "X-Content-Type-Options": {
-            "ok_pct": 63.6,
-            "present_pct": 63.6
+            "ok_pct": 53.8,
+            "present_pct": 53.8
           },
           "Referrer-Policy": {
-            "ok_pct": 36.4,
-            "present_pct": 36.4
+            "ok_pct": 30.8,
+            "present_pct": 30.8
           },
           "Permissions-Policy": {
-            "ok_pct": 18.2,
-            "present_pct": 18.2
+            "ok_pct": 15.4,
+            "present_pct": 15.4
           }
         },
-        "missing_two_plus_pct": 72.7
+        "missing_two_plus_pct": 76.9
       }
     }
   },
   "chi_square_tests": {
     "Content-Security-Policy": {
-      "chi2": 5.208,
-      "p": 0.1553,
+      "chi2": 3.512,
+      "p": 0.3191,
       "dof": 3
     },
     "Strict-Transport-Security": {
-      "chi2": 10.125,
-      "p": 0.0175,
+      "chi2": 11.319,
+      "p": 0.0102,
       "dof": 3
     },
     "X-Frame-Options": {
-      "chi2": 0.411,
-      "p": 0.9343,
+      "chi2": 0.967,
+      "p": 0.8113,
       "dof": 3
     },
     "X-Content-Type-Options": {
-      "chi2": 7.629,
-      "p": 0.0534,
+      "chi2": 9.076,
+      "p": 0.0279,
       "dof": 3
     },
     "Referrer-Policy": {
-      "chi2": 1.066,
-      "p": 0.7881,
+      "chi2": 1.391,
+      "p": 0.7116,
       "dof": 3
     },
     "Permissions-Policy": {
-      "chi2": 0.829,
-      "p": 0.8435,
+      "chi2": 1.768,
+      "p": 0.6262,
       "dof": 3
     }
   },
   "site_scores": [
+    {
+      "name": "Ministerio das Financas",
+      "url": "https://www.mf.gov.mz",
+      "category": "government",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "Ministerio da Economia e Financas",
+      "url": "https://www.mef.gov.mz",
+      "category": "government",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
+      }
+    },
     {
       "name": "Ministerio dos Negocios Estrangeiros",
       "url": "https://www.minec.gov.mz",
@@ -618,14 +636,14 @@
       "url": "https://www.studocu.com/mz",
       "category": "education",
       "region": "mz",
-      "score": 67,
+      "score": 0,
       "verdicts": {
         "Content-Security-Policy": "missing",
         "Strict-Transport-Security": "missing",
-        "X-Frame-Options": "ok",
-        "X-Content-Type-Options": "ok",
-        "Referrer-Policy": "ok",
-        "Permissions-Policy": "ok"
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
+        "Permissions-Policy": "missing"
       }
     },
     {
@@ -640,6 +658,21 @@
         "X-Frame-Options": "ok",
         "X-Content-Type-Options": "ok",
         "Referrer-Policy": "ok",
+        "Permissions-Policy": "missing"
+      }
+    },
+    {
+      "name": "CDM - Cervejas de Mocambique",
+      "url": "https://www.cdm.co.mz",
+      "category": "commercial",
+      "region": "mz",
+      "score": 0,
+      "verdicts": {
+        "Content-Security-Policy": "missing",
+        "Strict-Transport-Security": "missing",
+        "X-Frame-Options": "missing",
+        "X-Content-Type-Options": "missing",
+        "Referrer-Policy": "missing",
         "Permissions-Policy": "missing"
       }
     },
@@ -903,10 +936,10 @@
       "url": "https://www.microsoft.com",
       "category": "commercial",
       "region": "global",
-      "score": 0,
+      "score": 17,
       "verdicts": {
         "Content-Security-Policy": "missing",
-        "Strict-Transport-Security": "missing",
+        "Strict-Transport-Security": "ok",
         "X-Frame-Options": "missing",
         "X-Content-Type-Options": "missing",
         "Referrer-Policy": "missing",
@@ -948,13 +981,13 @@
       "url": "https://www.tiktok.com",
       "category": "commercial",
       "region": "global",
-      "score": 25,
+      "score": 75,
       "verdicts": {
         "Content-Security-Policy": "weak",
         "Strict-Transport-Security": "ok",
-        "X-Frame-Options": "missing",
-        "X-Content-Type-Options": "missing",
-        "Referrer-Policy": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
+        "Referrer-Policy": "ok",
         "Permissions-Policy": "missing"
       }
     },
@@ -963,9 +996,9 @@
       "url": "https://www.reddit.com",
       "category": "commercial",
       "region": "global",
-      "score": 58,
+      "score": 50,
       "verdicts": {
-        "Content-Security-Policy": "weak",
+        "Content-Security-Policy": "missing",
         "Strict-Transport-Security": "ok",
         "X-Frame-Options": "ok",
         "X-Content-Type-Options": "ok",
@@ -993,10 +1026,10 @@
       "url": "https://www.ebay.com",
       "category": "commercial",
       "region": "global",
-      "score": 0,
+      "score": 17,
       "verdicts": {
         "Content-Security-Policy": "missing",
-        "Strict-Transport-Security": "missing",
+        "Strict-Transport-Security": "ok",
         "X-Frame-Options": "missing",
         "X-Content-Type-Options": "missing",
         "Referrer-Policy": "missing",
@@ -1040,10 +1073,10 @@
       "region": "global",
       "score": 75,
       "verdicts": {
-        "Content-Security-Policy": "ok",
+        "Content-Security-Policy": "weak",
         "Strict-Transport-Security": "ok",
         "X-Frame-Options": "ok",
-        "X-Content-Type-Options": "weak",
+        "X-Content-Type-Options": "ok",
         "Referrer-Policy": "ok",
         "Permissions-Policy": "missing"
       }
@@ -1053,12 +1086,12 @@
       "url": "https://www.mastercard.com",
       "category": "finance",
       "region": "global",
-      "score": 17,
+      "score": 50,
       "verdicts": {
         "Content-Security-Policy": "missing",
         "Strict-Transport-Security": "ok",
-        "X-Frame-Options": "missing",
-        "X-Content-Type-Options": "missing",
+        "X-Frame-Options": "ok",
+        "X-Content-Type-Options": "ok",
         "Referrer-Policy": "missing",
         "Permissions-Policy": "missing"
       }
@@ -1323,14 +1356,14 @@
       "url": "https://www.jumia.com.ng",
       "category": "commercial",
       "region": "global",
-      "score": 67,
+      "score": 92,
       "verdicts": {
-        "Content-Security-Policy": "missing",
+        "Content-Security-Policy": "weak",
         "Strict-Transport-Security": "ok",
         "X-Frame-Options": "ok",
         "X-Content-Type-Options": "ok",
         "Referrer-Policy": "ok",
-        "Permissions-Policy": "missing"
+        "Permissions-Policy": "ok"
       }
     },
     {
